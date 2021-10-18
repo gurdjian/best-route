@@ -1,0 +1,57 @@
+body {
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ 
+}
+
+a {
+  color: #00B7FF;
+}
+
+#map{
+  width: 30%; 
+  
+}
+
+#container {
+  display: flex;
+  margin-top: 1%;
+  width: 100%;
+}
+#container > div {
+  padding: 0 15px 0;
+  border: solid 0.5px;
+  height: 70vh;
+  
+}
+#center{
+  width:35%;
+  overflow-y: scroll;
+}
+#center::-webkit-scrollbar {
+  display: none;
+}
+
+#right {
+  width: 35%;
+  right: 0%;
+  overflow-y: scroll;
+}
+#right::-webkit-scrollbar {
+  display: none;
+}
+
+table#results {
+  border-style: dashed 1px;
+}
+table#results td {
+  margin: 2px;
+}
+
+#bottom {
+
+}
+
+.invisible {
+  display: none!important;
+}
